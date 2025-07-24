@@ -4,11 +4,11 @@ Bu proje, bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind te
 
 ## Ekran Görüntüsü
 
-![Ekran Görüntüsü](./public/screenshots1.png)
-![Ekran Görüntüsü](./public/screenshots2.png)
-![Ekran Görüntüsü](./public/screenshots3.png)
-![Ekran Görüntüsü](./public/screenshots4.png)
-![Ekran Görüntüsü](./public/screenshots5.png)
+![Ekran Görüntüsü](screenshots1.png)
+![Ekran Görüntüsü](screenshots2.png)
+![Ekran Görüntüsü](screenshots3.png)
+![Ekran Görüntüsü](screenshots4.png)
+![Ekran Görüntüsü](screenshots5.png)
 
 ## Kurulum
 
