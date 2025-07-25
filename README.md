@@ -1,6 +1,6 @@
 # Coffee ☕️
 
-Bu proje, bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind teknolojileriyle geliştirilmiştir.
+Bu proje bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind teknolojileriyle geliştirilmiştir.
 
 ## Ekran Görüntüsü
 
