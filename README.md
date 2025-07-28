@@ -1,6 +1,6 @@
 # Coffee ☕️
 
-Bu proje, bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind teknolojileriyle geliştirilmiştir.
+Bu proje bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind teknolojileriyle geliştirilmiştir.
 
 ## Ekran Görüntüsü
 
@@ -14,6 +14,10 @@ Bu proje, bir kahve sipariş uygulamasıdır. Next.js + TypeScript + Tailwind te
 https://coffee-mu-seven.vercel.app
 
 ## Kurulum
+
+## Demo Link
+https://coffee-mu-seven.vercel.app
+
 
 ```bash
 git clone https://github.com/0rkun/Coffee.git
