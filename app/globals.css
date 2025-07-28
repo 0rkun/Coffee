@@ -57,8 +57,3 @@ body {
     padding:7px !important;
     opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.7);
 }
-
-.swiper-pagination {
-display: none;
-}
-

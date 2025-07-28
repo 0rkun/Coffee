@@ -4,10 +4,9 @@ import TestimonialsItem from "./TestimonialsItem";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import { Pagination } from "swiper/modules";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Navigation } from "swiper/modules";
 
 const Testimonials = () => {
   const TestimonialsData = [
@@ -81,13 +80,11 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="ml-7 ">
+      <div className="ml-7">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          pagination={{
-            clickable: true,
-          }}
+          navigation={true}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -102,7 +99,7 @@ const Testimonials = () => {
               spaceBetween: 50,
             },
           }}
-          modules={[Pagination]}
+          modules={[Navigation]}
           className="mySwiper"
         >
           {TestimonialsData.map((testimon, index) => (
@@ -117,13 +114,6 @@ const Testimonials = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="relative ">
-          <FaChevronLeft className="absolute text-2xl md:text-4xl -left-6 top-1/2 -translate-y-45    z-1 " />
-          <FaChevronRight
-            className="absolute right-4 text-2xl md:text-4xl top-1/2 -translate-y-45   
-          z-1 "
-          />
-        </div>
       </div>
     </div>
   );
